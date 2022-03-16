@@ -16,3 +16,8 @@ print(highest_score)
 print(average_all)
 print(result)
 
+sum_of_even = 0
+for even_nume in range(0,101):
+  if even_nume % 2==0:
+    sum_of_even += even_nume
+print(sum_of_even)    
